@@ -45,12 +45,6 @@ driver.find_element(By.XPATH, "/html/body/div/div[1]/div/div[2]/button[2]").clic
 driver.find_element(By.XPATH, "/html/body/div/main/main/article/section/div[3]/div[2]/div[2]/div/div/div").click()
 #Clicking dropdown for number of entries visible
 
-#WebDriverWait(driver,10).until(EC.element_to_be_clickable((By.XPATH, "/html/body/div/div/article/div/article/header/div[2]/a/span"))).click()
-#Waiting for the popup to appear so to click the X on it
-
-#driver.find_element(By.XPATH, "/html/body/div/div/main/div/article/section/div[2]/div[2]/div/div/div/div/span").click()
-#Clicking dropdown for number of entries visible again
-
 driver.find_element(By.XPATH, "/html/body/div/div/ul/li[4]/label/input").click()
 #Clicking the 96 entries selection
 
